@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | Moha Sambath Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="#">Menu</a>
+                    <ul>
+                        <li><a href="Menu.html#food">Food</a></li> 
+                        <li><a href="Menu.html#dessert">Desserts</a></li>
+                        <li><a href="Menu.html#drink">Drink</a></li>
+                    </ul>
+                </li>
+                <li><a href="reserve.html">Reservation</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+
+               
+            </ul>
+        </nav>
+
+</header>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="reservation-hero">
+
+        <div class="reservation-overlay">
+
+            <h1>Reserve Your Table</h1>
+
+            <p>
+                Enjoy an unforgettable dining experience by reserving
+                your table in advance.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Reservation Form -->
+    <section class="reservation-form">
+
+        <h2>Book a Table</h2>
+
+        <form action="thankyou.html">
+
+            <label>Full Name</label>
+            <input type="text" required>
+
+            <label>Phone Number</label>
+            <input type="tel" required>
+
+            <label>Email Address</label>
+            <input type="email" required>
+
+            <label>Reservation Date</label>
+            <input type="date" required>
+
+            <label>Reservation Time</label>
+            <input type="time" required>
+
+            <label>Number of Guests</label>
+
+            <select>
+
+                <option>1 Person</option>
+                <option>2 People</option>
+                <option>3 People</option>
+                <option>4 People</option>
+                <option>5 People</option>
+                <option>6+ People</option>
+
+            </select>
+
+            <label>Table Preference</label>
+
+            <div class="radio-group">
+
+                <label>
+                    <input type="radio" name="table">
+                    Indoor
+                </label>
+
+                <label>
+                    <input type="radio" name="table">
+                    Outdoor
+                </label>
+
+                <label>
+                    <input type="radio" name="table">
+                    VIP Room
+                </label>
+
+            </div>
+
+            <label>Special Requests</label>
+
+            <textarea rows="5"
+            placeholder="Write your request here..."></textarea>
+
+            <button type="submit">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                Reserve Table
+
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Restaurant Information -->
+    <section class="reservation-info">
+
+        <h2>Restaurant Information</h2>
+
+        <p><i class="fa-solid fa-location-dot"></i>
+            Street 70, Srah Chak Commune,
+            Daun Penh District, Phnom Penh
+        </p>
+
+        <p><i class="fa-solid fa-phone"></i>
+            +855 12 345 678
+        </p>
+
+        <p><i class="fa-solid fa-envelope"></i>
+            reservation@mohasambath.com
+        </p>
+
+        <p><i class="fa-solid fa-clock"></i>
+            Open Daily: 7:00 AM ->10:00 PM
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Contact Us
+                </h3>
+                <p>Street 70, Srah Chak Commune</p>
+                <p>Daun Penh District, Phnom Penh</p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                     +855 12 345 678
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@mohasambath.com
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>
+                    <i class="fa-solid fa-clock"></i>
+                    Opening Hours
+                </h3>
+                <p>Mon - Fri: 7:00 AM - 10:00 PM</p>
+                <p>Saturday: 7:00 AM - 11:00 PM</p>
+                <p>Sunday: 8:00 AM - 10:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h3>
+                    <i class="fa-solid fa-link"></i>
+                     Quick Links
+                </h3>
+
+                <p><a href="Home.html">Home</a></p>
+                <p><a href="About.html">About</a></p>
+                <p><a href="#">Menu</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    Follow Us
+                </h3>
+                <p>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                        Facebook
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                        TikTok
+                    </a>
+                </p>
+            </div>
+        </div>
+</footer>
+    
+
+
+</body>
+</html>
